@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="DEST 合作醫院收案工作台：一等親大腸癌家族史高風險收案流程與系統入口。">
+<meta name="theme-color" content="#123f48">
+<title>DEST｜家族史收案工作台</title>
+<link rel="stylesheet" href="./styles.css">
+<script defer src="./config.js"></script><script defer src="./app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="header"><a class="brand" href="#main" aria-label="DEST 工作台首頁"><span class="brand-icon" aria-hidden="true">D<span>+</span></span><span>DEST<span class="brand-sub">家族史收案工作台</span></span></a><span class="header-label">合作醫院專用入口</span></header>
+<div class="shell">
+<aside class="sidebar" aria-label="工作台導覽"><span class="nav-label">WORKSPACE</span><nav><a class="nav-active" href="#main"><span aria-hidden="true">▦</span> 收案工作台</a><a href="#workflow"><span aria-hidden="true">☷</span> 操作流程</a><a href="#help"><span aria-hidden="true">?</span> 使用說明</a></nav><div class="sidebar-note"><span class="small-label">DEST PORTAL</span><p>從家族史開始，<br>讓每一步更清楚。</p><span>一等親大腸癌家族史<br>高風險收案</span></div></aside>
+<main id="main" tabindex="-1">
+<div class="page-heading"><div><div class="eyebrow">FAMILY HISTORY · ENROLLMENT</div><h1>收案工作台</h1><p>確認收案準備，接續完成抽籤與家族圖譜作業。</p></div><span class="workspace-tag">研究團隊工作區</span></div>
+<section class="preparation" aria-labelledby="prep-title"><div class="prep-intro"><span class="section-kicker">BEFORE YOU START</span><h2 id="prep-title">開始前，先確認</h2><p>依核准研究計畫確認資格及作業順序。這裡的勾選僅供本次操作提醒。</p><div class="progress-label"><span id="progress-text" role="status" aria-live="polite">已確認 0 / 3 項</span><span>準備檢核</span></div><progress id="progress" max="3" value="0" aria-label="準備檢核進度">0 / 3</progress></div><div class="checklist"><label><input type="checkbox" class="prep-check"><span><strong>收案資格已確認</strong><small>依研究計畫確認一等親大腸癌家族史與收案條件。</small></span></label><label><input type="checkbox" class="prep-check"><span><strong>同意程序已確認</strong><small>確認本案所需的研究說明及同意程序。</small></span></label><label><input type="checkbox" class="prep-check"><span><strong>個案資料已備妥</strong><small>備妥研究編號與作業所需的家族史資訊。</small></span></label></div></section>
+<section class="systems" aria-labelledby="systems-title"><div class="section-heading"><h2 id="systems-title">選擇作業系統</h2><span>依目前作業進度進入</span></div><div class="system-grid"><article class="system-card primary"><div class="card-top"><span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h4M8 16h6"/></svg></span><span class="badge">原有系統入口</span></div><span class="card-eyebrow">RANDOMIZATION</span><h3>抽籤系統</h3><p>進入既有系統，依研究作業程序執行個案抽籤。</p><a id="lottery-link" class="button button-primary" href="https://ntuh.colontw.com/lottery_system" target="_blank" rel="noopener noreferrer">前往抽籤系統 <span aria-hidden="true">↗</span></a><span class="link-note">在新分頁開啟，保留此工作台</span></article><article class="system-card"><div class="card-top"><span class="icon-box pedigree-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M12 8v5M5 16v-3h14v3"/><rect x="2" y="16" width="6" height="6" rx="1"/><circle cx="19" cy="19" r="3"/></svg></span><span class="badge neutral" id="pedigree-status">待設定網址</span></div><span class="card-eyebrow">FAMILY PEDIGREE</span><h3>家族圖譜系統</h3><p>記錄家族關係與相關病史，整理個案的家族圖譜。</p><a id="pedigree-link" class="button button-secondary" hidden target="_blank" rel="noopener noreferrer">前往家族圖譜 <span aria-hidden="true">↗</span></a><button id="pedigree-unavailable" class="button button-disabled" disabled>家族圖譜入口尚未設定</button><span class="link-note" id="pedigree-note">請向計畫管理者取得正式入口</span></article></div></section>
+<section id="workflow" class="workflow" aria-labelledby="workflow-title"><div class="section-heading"><h2 id="workflow-title">操作流程</h2><span>實際順序以研究計畫為準</span></div><ol class="steps"><li><span class="step-number">01</span><div><h3>確認收案準備</h3><p>核對資格、同意程序及所需資料。</p></div></li><li><span class="step-number">02</span><div><h3>進入對應系統</h3><p>依作業進度開啟抽籤或家族圖譜。</p></div></li><li><span class="step-number">03</span><div><h3>確認作業結果</h3><p>在各系統確認資料與儲存結果。</p></div></li></ol></section>
+<section id="help" class="help" aria-labelledby="help-title"><h2 id="help-title">使用說明</h2><details><summary>這個工作台會儲存個案資料嗎？</summary><p>本頁提供系統入口與操作提醒，不輸入或儲存個案資料。準備檢核在重新整理頁面後會清除，也不代表個案已完成收案。</p></details><details><summary>如何確認已完成抽籤或家族圖譜？</summary><p>請以各系統顯示及儲存的結果為準。本工作台不讀取個案紀錄，也不會自動同步作業狀態。</p></details><details><summary>系統無法開啟時怎麼辦？</summary><p>先確認醫院網路與系統登入權限；若問題持續，請聯繫計畫管理者。家族圖譜須完成正式網址設定後才能使用。</p></details></section>
+<footer><span><strong>DEST</strong> 家族史收案工作台</span><span>依核准研究計畫執行收案作業</span></footer>
+</main></div>
+</body></html>
