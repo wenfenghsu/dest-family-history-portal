@@ -18,10 +18,12 @@
 ## 執行
 
 ```sh
-python3 -m venv .venv
+python3.12 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python app.py
 ```
+
+本機已以 Python 3.12 驗證。原專案固定的 Flask / Werkzeug 版本不支援 Python 3.14。
 
 開啟 http://127.0.0.1:8887 或 http://127.0.0.1:8887/dest_portal。
 
